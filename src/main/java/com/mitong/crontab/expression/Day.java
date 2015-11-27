@@ -6,25 +6,25 @@ import com.mitong.crontab.exception.ExpressionException;
  * @author mitong
  * @email mitong@aliyun.com
  * @date 15-11-26
- * @description 小时
+ * @description 日期
  * @since 1.0
  */
-public class Hour extends ExpressionPart {
-    private static final int MIN_HOUR = 0;
+public class Day extends ExpressionPart {
+    private static final int MIN_DAY = 1;
 
-    private static final int MAX_HOUR = 23;
+    private static final int MAX_DAY = 31;
 
-    public Hour(String hours) throws ExpressionException {
-        super(hours);
+    public Day(String days) throws ExpressionException {
+        super(days);
     }
 
     @Override
     public int getMin() {
-        return MIN_HOUR;
+        return MIN_DAY;
     }
 
     @Override
     public int getMax() {
-        return MAX_HOUR;
+        return MAX_DAY;
     }
 }
