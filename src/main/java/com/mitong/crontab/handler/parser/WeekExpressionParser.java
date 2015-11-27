@@ -7,9 +7,11 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @author tong.mi
- * @email tong.mi@qunar.com
+ * @author mitong
+ * @email mitong@aliyun.com
  * @date 15-11-27
+ * @description 转换周数表达式
+ * @since 1.0
  */
 public class WeekExpressionParser {
     private static final Map<String, Integer> weekToNumberMap = new HashMap<String, Integer>();

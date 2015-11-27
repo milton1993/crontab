@@ -5,9 +5,11 @@ import com.mitong.crontab.exception.ExpressionException;
 import com.mitong.crontab.expression.*;
 
 /**
- * @author tong.mi
- * @email tong.mi@qunar.com
+ * @author mitong
+ * @email mitong@aliyun.com
  * @date 15-11-27
+ * @description 把string表达式转换成CronExpression对象
+ * @since 1.0
  */
 public class CronExpressionBuilder {
     public static CronExpression build(String cronExpression) throws ExpressionException {

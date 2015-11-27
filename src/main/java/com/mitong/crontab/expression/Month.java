@@ -9,7 +9,8 @@ import java.util.Set;
  * @author mitong
  * @email mitong@aliyun.com
  * @date 15-11-27
- * @description 
+ * @description 月份
+ * @since 1.0
  */
 public class Month extends ExpressionPart {
     private static final int MIN_MONTH = 1;

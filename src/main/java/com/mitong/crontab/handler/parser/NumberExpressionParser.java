@@ -11,9 +11,11 @@ import java.util.Set;
 import java.util.regex.Pattern;
 
 /**
- * @author tong.mi
- * @email tong.mi@qunar.com
- * @date 15-11-26
+ * @author mitong
+ * @email mitong@aliyun.com
+ * @date 15-11-27
+ * @description 转换数字表达式
+ * @since 1.0
  */
 public class NumberExpressionParser {
     private static final Logger LOGGER = LoggerFactory.getLogger(NumberExpressionParser.class);

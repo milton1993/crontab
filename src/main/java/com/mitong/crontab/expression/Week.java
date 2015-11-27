@@ -6,9 +6,10 @@ import com.mitong.crontab.handler.parser.WeekExpressionParser;
 import java.util.Set;
 
 /**
- * @author tong.mi
- * @email tong.mi@qunar.com
+ * @author mitong
+ * @email mitong@aliyun.com
  * @date 15-11-27
+ * @description 周几
  */
 public class Week extends ExpressionPart {
     public static final int MIN_WEEK = 0;
