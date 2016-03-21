@@ -10,7 +10,6 @@ import com.mitong.crontab.exception.ExpressionException;
 public class CronTest {
     public static void main(String[] args) throws ExpressionException {
         CronTask task = new CronTask("* * * * *") {
-            @Override
             public void run() {
                 if (this.isRuntime()) {
                     System.out.println(1);
